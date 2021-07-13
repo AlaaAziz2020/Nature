@@ -57,17 +57,12 @@ background-repeat: no-repeat;
 
 .banner .info p{
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;    
-    line-height: 25px; 
-    padding-top: 15px; 
-
+    line-height: 30px; 
+    padding-top: 15px;
 }
 
-.banner .info p:hover{
-    color: #faa818;
-    line-height:20px;
-}
 .banner .info a{
     margin-left: 50%;
     transform: translateX(-50%);
@@ -86,11 +81,14 @@ background-repeat: no-repeat;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.5s;
+    margin-left: 10px;
 }
 .button1:hover{
-    background: #ffa50022;    
+    background: transparent;
+    border:1px solid orange;
 }
 .button2{
+    margin-left: 20px;
     color:orange;
     font-weight: bold;
     padding: 12px 30px;
@@ -101,6 +99,8 @@ background-repeat: no-repeat;
 }
 .button2:hover{
     background: #ffa50022;  
+    color: #000;
+    transition: 0.5s;
 }
 .banner .info a:hover{
 background-color: #e91e63;
